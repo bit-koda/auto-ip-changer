@@ -1,0 +1,15 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Logs and runtime data
+*.log
+*.pid
+data/
+settings.json
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride

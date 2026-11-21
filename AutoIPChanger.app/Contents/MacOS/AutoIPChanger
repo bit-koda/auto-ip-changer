@@ -1,0 +1,5 @@
+#!/usr/bin/env zsh
+# macOS .app bundle launcher for Auto IP Changer
+export PATH="/opt/anaconda3/bin:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:$PATH"
+cd "$HOME/.tor-ip-changer"
+exec /opt/anaconda3/bin/python3 "$HOME/.tor-ip-changer/menubar_app.py"
